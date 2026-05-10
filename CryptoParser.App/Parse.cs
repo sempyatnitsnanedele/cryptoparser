@@ -80,6 +80,7 @@ public class Parse
             }
             catch (Exception ex)
             { 
+                Console.WriteLine(ex)
                 await Task.Delay(5000*count, ct);
                 if (count < 12) count++;
             }
@@ -91,7 +92,7 @@ public class Parse
 
 public class CryptoMessage
 {
-    public CryptoData d { get; set; }
+    public CryptoData? d { get; set; }
 }
 public class CryptoData
 {
