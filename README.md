@@ -1,9 +1,9 @@
 # cryptoparser
-ОБ ПРИЛОЖЕНИИ:
+О ПРИЛОЖЕНИИ:
 Данное консольное приложение создано для того, чтобы просматривать актуальный курс активов с сайта coinmarketcap.com. Для парсинга данных используются вебсокеты и API сайта.
 
 СТЕК ТЕХНОЛОГИЙ:
-C#
-WebSockets
-Spectre.Console
+C#,
+WebSockets,
+Spectre.Console,
 System.Text.Json
