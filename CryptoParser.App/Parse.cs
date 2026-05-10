@@ -80,7 +80,7 @@ public class Parse
             }
             catch (Exception ex)
             { 
-                Console.WriteLine(ex)
+                Console.WriteLine(ex);
                 await Task.Delay(5000*count, ct);
                 if (count < 12) count++;
             }
